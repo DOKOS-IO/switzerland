@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include switzerland *.css
+recursive-include switzerland *.csv
+recursive-include switzerland *.html
+recursive-include switzerland *.ico
+recursive-include switzerland *.js
+recursive-include switzerland *.json
+recursive-include switzerland *.md
+recursive-include switzerland *.png
+recursive-include switzerland *.py
+recursive-include switzerland *.svg
+recursive-include switzerland *.txt
+recursive-exclude switzerland *.pyc
