@@ -1,3 +1,9 @@
+source_link = "https://github.com/DOKOS-IO/switzerland"
+docs_base_url = "https://dokos-io.github.io/switzerland"
+headline = "Localization Application for Switzerland"
+sub_heading = ""
+long_description = """This application is designed to add localization options for Switzerland to ERPNext"""
+
 """
 Configuration for docs
 """

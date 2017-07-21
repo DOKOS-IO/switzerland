@@ -1,0 +1,1 @@
+switzerland.patches.v1_0.replace_swiss_address_template

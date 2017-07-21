@@ -11,6 +11,8 @@ app_color = "#E31836"
 app_email = "hello@dokos.io"
 app_license = "GNU GPLv3"
 
+
+fixtures = ["Custom Field", {"doctype": "Print Format", "filters": {"name": "Swiss Invoice"}}]
 # Includes in <head>
 # ------------------
 
@@ -119,4 +121,3 @@ app_license = "GNU GPLv3"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "switzerland.event.get_events"
 # }
-

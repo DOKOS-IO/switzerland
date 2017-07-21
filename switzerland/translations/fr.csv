@@ -1,0 +1,15 @@
+Custom Print Format,Invoice Number :,Facture N°:
+Custom Print Format,From :,Du :
+Custom Print Format,Reference :,Référence :
+Custom Print Format,Concerns :,Concerne :
+Custom Print Format,DRAFT,BROUILLON
+Custom Print Format,CANCELLED,ANNULÉE
+Custom Print Format,Description,Désignation
+Custom Print Format,UoM,Unité
+Custom Print Format,Rate,Prix
+Custom Print Format,Amount,Montants
+Custom Print Format,Sub-Total,Sous-Total
+Custom Print Format,Discount,Rabais
+Custom Print Format,Swiss Invoice,Facture Suisse
+Doctype: Sales Invoice,Reference Information,Informations de Référence
+Doctype: Sales Invoce,Print Discount per Item,Imprimer les Rabais par Article
