@@ -131,34 +131,34 @@
 
 <p>Ce format dispose des particularités suivantes:</p>
 
-<ol>
-<li>Il propose deux champs additionnels nommés "Référence" et "Sujet".
-Ceux-ci sont accessibles dans la section "Informations de Référence" de la facture de vente.</li>
-</ol>
-
-<p>S'ils ne sont pas remplis, ils n'apparaissent pas sur la facture.</p>
-
-<ol>
-<li>Il imprime l'adresse du client suivant le format défini dans le "Modèle d'Adresse" du pays.
-Pour la Suisse, le format de base est le suivant:</li>
-</ol>
+<ul>
+<li><p>Il propose deux champs additionnels nommés "Référence" et "Sujet".
+Ceux-ci sont accessibles dans la section "Informations de Référence" de la facture de vente.
+S'ils ne sont pas remplis, ils n'apparaissent pas sur la facture.</p></li>
+<li><p>Il imprime l'adresse du client suivant le format défini dans le "Modèle d'Adresse" du pays.
+Pour la Suisse, le format de base est le suivant:</p></li>
+</ul>
 
 <p><code>
-{{ address_line1 }}&lt;br&gt;{{ city }}&lt;br&gt;
-{{ country }}
-</code>
-Ce format est installé automatiquement lors de l'installation de l'application.
+    {{ address_line1 }}&lt;br&gt;{{ city }}&lt;br&gt;  
+    {{ country }}
+</code>  </p>
+
+<p>Ce format est installé automatiquement lors de l'installation de l'application.
 Vous pouvez bien évidemment le modifier dans les modèles d'adresse d'ERPNext.</p>
 
-<ol>
+<ul>
 <li><p>Vous avez la possibilité d'imprimer les rabais par article en cochant l'option "Imprimer les Rabais par Article" dans la section "Réglages d'Impression".
 Dans ce cas une colonne additionnelle "Rabais" apparaîtra dans votre tableau d'articles.</p></li>
 <li><p>Pour diviser votre tableau en plusieurs sections (chaque section sera imprimée sur une page différente), sélectionnez "Saut de Page" depuis une ligne d'article.</p></li>
 <li><p>Si vous avez fait une remise supplémentaire, celle-ci apparaîtra accompagné du total net entre le sous-total du tableau et les lignes de Taxes et Frais.</p></li>
-<li><p>Le libellé de TVA est celui de la désignation de la ligne de TVA/Frais.
+<li><p>Le libellé de TVA est celui de la désignation de la ligne de TVA-Frais.
 Pour la TVA, il est configurable dans le module "Comptes" &gt; "Modèle de Taxes et Frais de Vente"</p></li>
 <li><p>Tous les nombres sont arrondis à 2 décimales, indépendamment des réglages généraux d'ERPNext.</p></li>
-<li><p>Le Total Général ou "Total" est arrondi à 2 décimales, à 5 centimes près.</p></li>
+</ul>
+
+<ol>
+<li>Le Total Général ou "Total" est arrondi à 2 décimales, à 5 centimes près.</li>
 </ol>
 
 </div>
