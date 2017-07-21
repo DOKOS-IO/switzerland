@@ -34,4 +34,7 @@ Pour la TVA, il est configurable dans le module "Comptes" > "Modèle de Taxes et
 - Tous les nombres sont arrondis à 2 décimales, indépendamment des réglages généraux d'ERPNext.
 
 
+- Le format d'impression des devises est également indépendant des réglages généraux d'ERPNext: X'XXX.XX
+
+
 - Le Total Général ou "Total" est arrondi à 2 décimales, à 5 centimes près.
