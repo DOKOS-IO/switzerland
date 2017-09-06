@@ -14,7 +14,7 @@ def execute():
         new_template = frappe.get_doc({
                     "doctype": "Address Template",
                     "country": "Switzerland",
-                    "template": "{{ address_line1 }}<br>{% if address_line2 %}{{ address_line2 }}<br>{% endif -%}\n{% if pincode %}{{ pincode }} {% endif -%}{{ city }}<br>\n{{ country }}"
+                    "template": "{{ address_line1 }}<br>{% if address_line2 %}{{ address_line2 }}<br>{% endif -%}\n{% if pincode %}{{ pincode }} {% endif -%}{{ city }}"
                     })
         new_template.insert()
         new_template.save()
